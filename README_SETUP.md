@@ -1,8 +1,8 @@
 # PRC_test Project - Environment Setup Guide
 
-## Quick Start (快速开始)
+## Quick Start (開始)
 
-### Method 1: Using the Setup Script (推荐方法)
+### Method 1: Using the Setup Script (推薦方法)
 
 ```bash
 # Step 1: Navigate to the project directory
@@ -36,7 +36,7 @@ pip install numpy pandas matplotlib scikit-learn
 
 ---
 
-## Required Packages (必需的包)
+## Required Packages (必要のパッケージ)
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -47,7 +47,7 @@ pip install numpy pandas matplotlib scikit-learn
 
 ---
 
-## Project Files (项目文件)
+## Project Files (ファイル内容リスト)
 
 - **setup_environment.py** - Environment preparation and package verification
 - **requirements.txt** - List of all required packages
@@ -57,7 +57,7 @@ pip install numpy pandas matplotlib scikit-learn
 
 ---
 
-## Typical Workflow (典型工作流程)
+## Typical Workflow 
 
 ```bash
 # 1. First time setup
@@ -99,7 +99,7 @@ python setup_environment.py
 
 ---
 
-## Verifying Setup (验证设置)
+## Verifying Setup (設置確認)
 
 To verify all packages are correctly installed:
 
@@ -124,7 +124,7 @@ python setup_environment.py
 
 ---
 
-## Notes (注意事项)
+## Notes (注意事項)
 
 - The setup script uses `pip` for package management
 - Internet connection required for first-time installation
