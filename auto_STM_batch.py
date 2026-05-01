@@ -201,7 +201,7 @@ if __name__ == "__main__":
 
     # 🔴 Step 2: Create a new folder path where you want to save results
     # It's recommended to create a separate Results folder instead of mixing with input folder
-    OUTPUT_DIR = "/Users/yumengzheng/Desktop/DATA/6.STO界面/learning/STM/zheng/Batch_Results/PtNSTO_005wt_D14/"
+    OUTPUT_DIR = "/Users/yumengzheng/Desktop/DATA/6.STO界面/learning/STM/zheng/Batch_Results/PtNSTO_005wt_D14_2/"
 
     # Start batch processing (default node_point=50, max_delay=6, modifiable as needed)
     batch_process_folder(input_folder=INPUT_DIR, output_folder=OUTPUT_DIR, node_point=50, max_delay=6)

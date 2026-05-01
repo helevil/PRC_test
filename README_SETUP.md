@@ -54,6 +54,7 @@ pip install numpy pandas matplotlib scikit-learn
 - **auto_STM_batch.py** - Batch processing for multiple CSV files
 - **STM.py** - Single file STM analysis
 - **STM_full.py** - Full STM analysis with detailed output
+- **NARMA.py** - NARMA benchmark task with random reservoir evaluation
 
 ---
 
@@ -72,6 +73,8 @@ python auto_STM_batch.py      # For batch processing
 python STM.py                 # For single file
 # or
 python STM_full.py            # For detailed analysis
+# or
+python NARMA.py --mode prc --file /path/to/your/prc_measurement.csv --order 10 --nodes 30 --normalize global --baseline 0.0 --scale 1.0
 ```
 
 ---
